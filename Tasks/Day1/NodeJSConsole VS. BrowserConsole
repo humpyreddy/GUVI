@@ -1,0 +1,12 @@
+Javascript is an implementation of ECMAScript, a standard defining the programming language.
+Browsers have a built-in interpreter for Javascript, along with a bunch of libraries and a run-time environment for working with web pages on the client-side. 
+JS(Browser) has access to global object window.
+JS(Browser) has access to document which stores a reference to the DOM, whenever we change the document, the changes are reflected in the DOM.
+
+NodeJS was written in C++
+Node JS provides a run-time environment outside the browser.
+Chromes JavaScript engine is V8 which is also used by NodeJS.
+NodeJS doesn't have access to window object, but has access to global which is similar to window.
+NodeJS doesn't have access to document. It has access to process, which gives information about the current node process.
+It also includes a package management system (NPM) and a few language extensions you won't find standard in browsers (for example modules).
+
