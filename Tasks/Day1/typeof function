@@ -1,3 +1,4 @@
+(In JS)
 typeof(1) //returns number
 typeof(1.1)//returns number
 typeof("1.1")//returns string
