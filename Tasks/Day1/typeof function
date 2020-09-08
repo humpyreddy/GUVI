@@ -1,0 +1,9 @@
+(In JS)
+typeof(1) //returns number
+typeof(1.1)//returns number
+typeof("1.1")//returns string
+typeof(true)//returns boolean
+typeof(null)// returns object
+typeof(undefined)// returns undefined
+typeof([])//returns object
+typeof({})returns object
