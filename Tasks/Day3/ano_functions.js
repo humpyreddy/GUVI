@@ -132,6 +132,7 @@ console.log(primesfilter)
 
 //5. Return all the palindromes of an array
 
+
 function isPalindrome(str){
     reversed = ''
     for(let i=str.length-1;i>=0;i--){
@@ -155,6 +156,9 @@ var allpal = function(arr){
 
     return pals
 }
+
+
+
 var subs = []
 var subarrays = function(arr,start,end){
     

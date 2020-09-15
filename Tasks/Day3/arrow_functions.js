@@ -22,7 +22,7 @@ console.log(caps)
 
 var total = numbers.reduce((num,sum)=>{
     return num+sum
-},0)
+}   ,0)
 
 console.log(total)
 
@@ -44,9 +44,15 @@ function isPrime(element){
     
 }
 
-const primesfilter = nos.filter((num)=>{
+const primesfilter = numbers.filter((num)=>{
     return isPrime(num)
  })
 console.log(primesfilter)
 
+
 //Return all the palindromes in an array
+
+j=0
+console.log(j++)
+
+
