@@ -1,3 +1,8 @@
+//Refer to
+// https://medium.com/@reach2arunprakash/guvi-zen-code-sprint-javascript-practice-problems-in-json-objects-and-list-49ac3356a8a5
+
+
+
 // Write a function called “printAllValues” which returns an newArray of all the input object’s values.
 // Input (Object):
 // var object = {name: “RajiniKanth”, age: 33, hasPets : false};
@@ -151,10 +156,10 @@ function transformEmployeeData(arr) {
 
 
 
-console.log(transformEmployeeData(arr))
+//console.log(transformEmployeeData(arr))
 
 
-
+//Problem 7
 //Comparing json objects
 
 var expected = {foo: 5, bar: 6};
@@ -162,10 +167,89 @@ var actual = {foo: 5, bar: 6}
 function assertObjectsEqual(actual, expected){
  // your code here
  if(JSON.stringify(actual)==JSON.stringify(expected)){
-     return true
+     return 'PASSED'
  }
- return false
+ return 'FAILED [my test] Expected '+expected+', but got '+actual;
 }
 
 console.log(assertObjectsEqual(actual,expected))
 
+//Problem 8
+// Parsing JSON objects and Compare:
+// I have a mock data of security Questions and Answers. You function should 
+// take the object and a pair of strings and should return if the quest is present and if its valid answer
+
+
+
+var securityQuestions = [
+    {
+    question: "What was your first pet’s name?",
+    expectedAnswer: "FlufferNutter"
+    },
+    {
+    question: "What was the model year of your first car?",
+    expectedAnswer: "1985"
+    },
+    {
+    question: "What city were you born in?",
+    expectedAnswer: "NYC"
+    }
+   ]
+
+   
+
+   function chksecurityQuestions(securityQuestions,question,answer) {
+   
+
+
+    for(item in securityQuestions){
+        let element = securityQuestions[item]
+        if(element.question == question && element.expectedAnswer == answer){
+            return true
+        }
+    }
+
+    return false
+    
+   }
+
+
+   
+   //Test case1:
+
+   var ques = "What was your first pet’s name?";
+   var ans  =  "FlufferNutter";
+   var status = chksecurityQuestions(securityQuestions, ques, ans);
+  // console.log(status); // true
+  // Test case2:
+
+   var ques = "What was your first pet’s name?";
+   var ans  =  "DufferNutter";
+   var status = chksecurityQuestions(securityQuestions, ques, ans);
+  // console.log(status); // false
+
+
+
+  //Problem 9
+  //Write a function to return the list of characters below 20 age
+
+  var students = [
+    {
+ name: "Siddharth Abhimanyu", age: 21}, { name: "Malar", age: 25},
+    {name: "Maari",age: 18},{name: "Bhallala Deva",age: 17},
+    {name: "Baahubali",age: 16},{name: "AAK chandran",age: 23},   {name:"Gabbar Singh",age: 33},{name: "Mogambo",age: 53},
+    {name: "Munnabhai",age: 40},{name: "Sher Khan",age: 20},
+    {name: "Chulbul Pandey",age: 19},{name: "Anthony",age: 28},
+    {name: "Devdas",age: 56} 
+    ];
+   function returnMinors(arr)
+   {
+       const minors = arr.filter((item)=>{
+           return item.age<20
+       })
+
+       
+       return minors
+   }
+
+   //console.log(returnMinors(students));
