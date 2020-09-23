@@ -1,0 +1,164 @@
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  height: 300px;
+  
+}
+
+.header {
+  background: rgba(8, 8, 8, 0.87); 
+  height: 300px;
+  position: relative;;
+}
+
+
+.icon{
+	display: inline-block;
+	vertical-align: bottom;
+	padding-right: 132px;
+}
+
+.center{
+  width:12rem;
+  height:12rem;
+  border-radius: 1000px;
+  border-style: dotted;
+  border-color: rgb(255, 196, 0);
+  position: absolute;
+top:20%;
+left:41%;
+text-align: center;
+}
+
+.roundedrect {
+  position:absolute;
+  top:65%;
+  left:36%;
+  text-align: center;
+  border-radius: 5px;
+  background:rgb(255, 196, 0);
+  padding: 20px; 
+  width: 25%;
+  color:black;
+  font-size: 30px;
+}
+
+
+.info{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr{
+  border: 1px gray solid;
+  margin-bottom: 20px;
+}
+
+
+h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h4{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+body{
+  padding: 4rem 5rem;
+  background-color: linear-gradient();
+}
+
+html{
+  color: #000000;
+  font-family: Josefin Sans;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+section+section{
+  margin-top: 1rem;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom:15px;
+}
+
+
+
+.skills h4{
+  text-align: center;
+}
+
+.skills>ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.techskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 50px;  
+}
+
+.addskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 300px; 
+}
+progress {
+  background-color:#d8d8d8;
+  border: 0;
+  height: 12px;
+  border-radius: 2px;
+} 
+
+.desdate{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 250px; 
+
+}
+
+.designation{
+  font-size: 1.3rem;
+}
+.duration{
+  font-size: 1.3rem;
+}
+.company{
+  font-size: 1.2rem;
+  font-style: italic;
+
+}
+
+
+
+.content{
+  border-left: 1px solid #888;
+  padding-left: 1.5rem;
+  margin-left:1rem;
+}
+
+
+
+
