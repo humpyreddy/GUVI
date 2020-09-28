@@ -95,7 +95,10 @@ p{
     background-color: rgb(194, 188, 188);
     clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
     padding:10%;
-    display:inline-block
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 350px; 
 }
 
 .logo{
@@ -104,6 +107,17 @@ p{
     height:5%;
     width: 20%;
 }
+
+.bottom{
+    margin-top:2%;
+    margin-bottom: 2%;
+    height:15%;
+    width: 50%;
+    text-align: center;
+    margin-left:8%;
+}
+
+
 
 
 .l1{
@@ -114,19 +128,7 @@ p{
     float:right;
 }
 
-.p1{
-    color:rgb(58, 56, 56);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width:60%;
-    float:left;
-}
-.p2{
-    color:rgb(58, 56, 56);
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left:2%;
-    float:right;
-}
+
 
 
 
