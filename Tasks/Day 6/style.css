@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(27,1,27);
+    
+}
+
+@font-face {
+    font-family: LoveFont;
+    src: url(D:/GUVI/GUVI/Tasks/Day6/Lovelyn.ttf);
+  }
+
+.parent1{
+    background-color: rgb(27,1,27);
+    transform: skewY(-5deg);
+}
+.parent2{
+    background-color:lightpink;
+    transform: skewY(-5deg);
+}
+.container{
+    font-family: LoveFont;
+    color: white;
+    padding: 10%;   
+    transform: skewY(+5deg);
+    margin-left:2%;
+    margin-right: 2%;
+    border-left: white dashed 5px;
+    border-right: white dashed 5px;
+}
+.container1{
+    margin-top: 5%;
+    border-top: white dashed 5px;  
+    border-top-left-radius: 25px;
+    border-top-right-radius:25px;
+}
+
+
+
