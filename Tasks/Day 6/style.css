@@ -4,21 +4,58 @@ body{
 }
 
 @font-face {
-    font-family: LoveFont;
-    src: url(D:/GUVI/GUVI/Tasks/Day6/Lovelyn.ttf);
+    font-family: myFirstFont;
+    src: url(Lovelyn.ttf);
   }
+
+#mouse{
+  height: 10%;
+}
 
 .parent1{
     background-color: rgb(27,1,27);
     transform: skewY(-5deg);
+    color: white;
+
 }
 .parent2{
     background-color:lightpink;
     transform: skewY(-5deg);
+    color: black;
+}
+
+.parent3{
+    background-color: cadetblue;
+    transform: skewY(-5deg);
+    color: white;
+}
+
+.parent4{
+    background-color: lightsteelblue;
+    transform: skewY(-5deg);
+    color: black;
+}
+.parent5{
+    background-color: lightgreen;
+    transform: skewY(-5deg);
+    color: white;
+}
+.parent6{
+    background-color: lightyellow;
+    transform: skewY(-5deg);
+    color: black;
+}
+.parent7{
+    background-color:rgb(207, 112, 77);
+    transform: skewY(-5deg);
+    color: white;
+
+}
+.sized{
+    font-size: 10rem;
 }
 .container{
-    font-family: LoveFont;
-    color: white;
+    font-family:myFirstFont;
     padding: 10%;   
     transform: skewY(+5deg);
     margin-left:2%;
@@ -28,10 +65,70 @@ body{
 }
 .container1{
     margin-top: 5%;
+    text-align: center;
     border-top: white dashed 5px;  
     border-top-left-radius: 25px;
     border-top-right-radius:25px;
 }
+.container2{
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+p{
+    font-size: large;
+}
+.sizedown{
+    font-size: 1.5rem;
+}
+
+
+.foot{
+    padding:3%;
+    font-size:1.5rem;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.container3{
+    background-color: rgb(194, 188, 188);
+    clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+    padding:10%;
+    display:inline-block
+}
+
+.logo{
+    margin-top:2%;
+    align-content: center;
+    height:5%;
+    width: 20%;
+}
+
+
+.l1{
+    float:left;
+    font-style: inherit;
+}
+.l2{
+    float:right;
+}
+
+.p1{
+    color:rgb(58, 56, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:60%;
+    float:left;
+}
+.p2{
+    color:rgb(58, 56, 56);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:2%;
+    float:right;
+}
+
+
 
 
 

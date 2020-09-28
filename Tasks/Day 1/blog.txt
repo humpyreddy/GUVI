@@ -1,0 +1,21 @@
+The keys can be variables or functions and are called properties and methods respectively, in the context of an object.
+let employee = {
+name : "Vivek",
+location : "Delhi",
+age : 30
+}
+In the above example "name", "location", "age" are all "keys" and "Vivek", "Delhi" and 30 are values of these keys respectively.
+Each of these keys are referred to as "properties" of an object.
+An object in JavaScript may also have a function as a member, in which case it will be known as a method of that object.
+For example:
+let employee = {
+name: 'Vivek',
+location : 'Delhi',
+CTC : 1200000,
+displayInfo : function(){
+console.log(${employee.name} is working
+ at ${employee.location} with the CTC ${employee});
+}
+}
+employee.displayInfo();
+In the above example, "displayinfo" is a method of the employee object that is being used to work with the object's data, stored in its properties.

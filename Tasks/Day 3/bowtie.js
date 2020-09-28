@@ -16,12 +16,13 @@ var obj = {name : "RajiniKanth", age : 33, hasPets : false};
 function printAllValues(obj) {
  var val = []
  for(item in obj){
+    
      val.push(obj[item])
  }
  return val
 }
 
-//console.log(printAllValues(obj))
+// console.log(printAllValues(obj))
 
 // Parsing an JSON object’s Keys:
 // Write a function called “printAllKeys” which returns an newArray of all the input object’s keys.
@@ -62,7 +63,7 @@ function convertListToObject(obj) {
     return thelist
 }
 
-//console.log(convertListToObject(obj))
+// console.log(convertListToObject(obj))
 
 // Parsing a list and transform the first and last elements of it:
 // Write a function ‘transformFirstAndLast’ that takes in an array, and returns an object with:
@@ -86,7 +87,7 @@ function transformFirstAndLast(arr) {
      return newObject;
 }
 
-//console.log(transformFirstAndLast(arr))
+    console.log(transformFirstAndLast(arr))
 
 // Parsing a list of lists and convert into a JSON object:
 // Write a function “fromListToObject” which takes in an array of arrays, and returns an object with each pair of elements in the array as a key-value pair.
